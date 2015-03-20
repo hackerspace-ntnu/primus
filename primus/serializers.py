@@ -14,4 +14,4 @@ class ContestSerializer(serializers.ModelSerializer):
 
     class Meta:
         model = Contest
-        fields = ('id', 'name', 'results')
+        fields = ('id', 'name', 'lowest_best', 'results')
